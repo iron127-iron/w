@@ -10,10 +10,11 @@ public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        saveDefaultConfig();
+
         generator = new OreGenerator(this);
         generator.generateNoise();
-        getLogger().info("FakeVisionOre 已啟動");
+
+        getLogger().info("FakeVisionOre 已啟動（支援 1.21.11）");
     }
 
     public static Main getInstance() {
