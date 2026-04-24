@@ -1,0 +1,4 @@
+name: FakeVisionOre
+version: 1.0
+main: me.orig.fakevision.Main
+api-version: 1.21
