@@ -30,6 +30,7 @@ public class OreGenerator {
             Block block = world.getBlockAt(x, y, z);
 
             if (block.getType() == Material.STONE) {
+
                 if (random.nextDouble() < 0.35) {
                     block.setType(getFakeOre());
                 }
